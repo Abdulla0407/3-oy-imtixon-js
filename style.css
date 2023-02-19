@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    padding: 23px 119px;
+    margin: auto;
+    margin-top: 100px;
+}
+.menu{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+text-align: center;
+}
+.inp__cont{
+    display: flex;
+    gap: 32px 28px;
+    margin-top: 44px;
+}
+.input__food--name{
+    padding: 16px 147px 17px 17px;
+    border-radius: 10px;
+}
+.input__food--price{
+    padding: 16px 146px 17px 17px;
+    border-radius: 10px;
+}
+.input__food--img{
+    padding: 16px 100px 17px 17px;
+    border-radius: 10px;
+}
+.inp__div{
+    display: flex;
+    gap: 0 28px;
+    margin-top: 32px;
+}
+.input__food--cook{
+    padding: 16px 147px 17px 17px;
+    border-radius: 10px;
+}
+.input__food--restaurant{
+    padding: 16px 457px 17px 17px;
+    border-radius: 10px;
+} 
+.btn{
+    padding: 10px 34px;
+    background-color: #1DE755;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    margin-left: 1050px;
+    position: absolute; 
+    margin-top: -90px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color: brown;
+}
+.cart{
+    
+    margin-top: 47px;
+    
+    
+}
+
+
+@media only screen and (max-width: 1260px){
+    .container{
+        padding: 23px 150px;
+        background-color: red;
+        
+    }
+
+    .input__food--img{
+        padding: 16px 50px 17px 17px;
+        border-radius: 10px;
+    }
+}
